@@ -1,0 +1,12 @@
+{
+"presets": [
+"@babel/preset-env",
+"@babel/preset-react",
+// CRÍTICO: Este preset permite a Babel entender y eliminar los tipos de TypeScript.
+"@babel/preset-typescript"
+
+],
+ "plugins": [
+    "@babel/plugin-transform-modules-commonjs"
+  ]
+}
