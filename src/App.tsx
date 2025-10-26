@@ -1,11 +1,12 @@
 
 import './App.css'
+import { Formulario } from './formulario/components/Formulario'
 
 function App() {
 
   return (
     <>
-      <h1>hola</h1>
+      <Formulario/>
     </>
   )
 }
