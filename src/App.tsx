@@ -1,12 +1,13 @@
 
 import './App.css'
+import Bienvenida from './bienvenida/components/Bienvenida'
 
 function App() {
 
   return (
-    <>
-      <h1>hola</h1>
-    </>
+    <div>
+      <Bienvenida />
+    </div>
   )
 }
 
