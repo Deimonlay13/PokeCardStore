@@ -6,8 +6,8 @@ import { CartDetails } from "../../cartas/components/CartDetails";
 
 const Header = () => {
     const { totalItems } = useCart();
-      const [showCart, setShowCart] = useState(false);
-        const handleClose = () => setShowCart(false);
+    const [showCart, setShowCart] = useState(false);
+    const handleClose = () => setShowCart(false);
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Container>

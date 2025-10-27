@@ -1,5 +1,4 @@
-// src/cartas/context/CartContext.tsx
-import React, {
+import {
   createContext,
   useContext,
   useState,

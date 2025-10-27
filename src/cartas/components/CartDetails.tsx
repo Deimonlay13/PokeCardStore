@@ -1,4 +1,3 @@
-// src/cartas/components/CartDetails.tsx
 import { useCart } from "../context/CartContext";
 
 export const CartDetails = () => {
@@ -63,7 +62,6 @@ export const CartDetails = () => {
       {cart.length > 0 && (
         <div className="mt-3 text-end">
           <div className="fw-bold">Total: ${totalAmount}</div>
-          {/* botones extra: checkout, vaciar, etc */}
         </div>
       )}
     </div>
