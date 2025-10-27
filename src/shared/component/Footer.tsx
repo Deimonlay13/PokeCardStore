@@ -21,7 +21,7 @@ const Footer = () => {
               <Nav.Link as={NavLink} to="/cartas" className="text-light">
                 Cartas
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/contact" className="text-light">
+              <Nav.Link as={NavLink} to="/contacto" className="text-light">
                 Contacto
               </Nav.Link>
             </Nav>
