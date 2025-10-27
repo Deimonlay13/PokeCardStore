@@ -1,4 +1,3 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
 import type { CartaPokemon } from "../src/cartas/interfaces/carta-pokemon.interface";
 import * as CounterModule from "../src/counter/Counter";

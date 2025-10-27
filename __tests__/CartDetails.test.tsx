@@ -1,4 +1,3 @@
-// src/cart/components/CartDetails.spec.tsx
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { CartProvider, useCart } from "../src/cartas/context/CartContext";

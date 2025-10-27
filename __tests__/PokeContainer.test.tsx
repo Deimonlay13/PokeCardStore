@@ -1,4 +1,3 @@
-import React from "react";
 import { render, screen, waitFor } from "@testing-library/react";
 import { PokeContainer } from "../src/cartas/components/PokeContainer";
 import * as PokeListModule from "../src/cartas/components/PokeList";
