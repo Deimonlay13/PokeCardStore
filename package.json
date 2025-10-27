@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "karma start karma.conf.cjs"
+    "test": "karma start karma.conf.cjs",
+    "test:coverage": "karma start karma.conf.cjs && start coverage/html/index.html"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
@@ -31,6 +32,7 @@
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react-swc": "^4.1.0",
     "babel-loader": "^10.0.0",
+    "babel-plugin-istanbul": "^7.0.1",
     "css-loader": "^7.1.2",
     "eslint": "^9.36.0",
     "eslint-plugin-react-hooks": "^5.2.0",
