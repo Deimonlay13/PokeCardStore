@@ -1,4 +1,3 @@
-import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import * as CartContext from "../src/cartas/context/CartContext";
 import type { CartaPokemon } from "../src/cartas/interfaces/carta-pokemon.interface";

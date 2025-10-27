@@ -1,5 +1,3 @@
-// src/cart/context/CartContext.spec.tsx
-import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { CartProvider, useCart } from "../src/cartas/context/CartContext";
 import { mockCartas } from "../src/cartas/mock/cartas.mock";
