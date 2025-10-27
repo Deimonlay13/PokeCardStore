@@ -1,4 +1,3 @@
-// mock/noticias.mock.ts
 import type { Noticia } from "../interface/noticia.interface";
 
 export const mockNoticias: Noticia[] = [

@@ -1,6 +1,6 @@
 import { useEffect, useState, type FC } from "react";
 import type { Noticia } from "../interface/noticia.interface";
-import { NoticiasPokemon } from "./NoticiasList";
+import { NoticiasList } from "./NoticiasList";
 import { mockNoticias } from "../mock/noticias.mock";
 
 export const Noticias: FC = () => {
@@ -10,5 +10,5 @@ export const Noticias: FC = () => {
     setNoticias(mockNoticias);
   }, []);
 
-  return <NoticiasPokemon noticias={noticias} />;
+  return <NoticiasList noticias={noticias} />;
 };

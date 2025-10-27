@@ -1,4 +1,3 @@
-// src/cartas/context/CartContext.tsx
 import React, {
   createContext,
   useContext,

@@ -6,7 +6,7 @@ interface Props {
   noticias: Noticia[];
 }
 
-export const NoticiasPokemon: React.FC<Props> = ({ noticias }) => {
+export const NoticiasList: React.FC<Props> = ({ noticias }) => {
    return (
      <div className="noticias-container px-5 pt-5">
        {noticias.map((noticia) => (

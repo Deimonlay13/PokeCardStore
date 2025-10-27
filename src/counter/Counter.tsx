@@ -1,4 +1,3 @@
-// src/cartas/components/Counter.tsx
 import { useState, type FC } from "react";
 import type { CartaPokemon } from "../cartas/interfaces/carta-pokemon.interface";
 import { useCart } from "../cartas/context/CartContext";
@@ -15,7 +14,7 @@ export const Counter: FC<Props> = ({ carta }) => {
   const decrement = () => setCount((c) => Math.max(0, c - 1));
   const handleAddToCart = () => {
     addToCart(carta, count);
-    setCount(0); // importante: resetea el contador local después de agregar
+    setCount(0);
   };
 
   return (
