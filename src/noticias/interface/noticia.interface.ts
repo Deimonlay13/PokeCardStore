@@ -5,5 +5,5 @@ export interface Noticia {
     titulo: string;
     descripcion: string;
     imagen: string;
-    enlace: string;
+    enlace?: string;
 }
