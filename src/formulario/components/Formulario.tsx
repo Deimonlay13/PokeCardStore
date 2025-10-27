@@ -78,7 +78,7 @@ export const Formulario = () => {
 
                                 <Form.Group className="form-group mb-3"controlId="email">
                                     <Form.Label>Email</Form.Label>
-                                    <Form.Control required type="email" placeholder="name@duocuc.cl" />
+                                    <Form.Control required type="email" placeholder="name@duocuc.cl" onChange={() => setValidated(false)} />
                                     <Form.Control.Feedback type="invalid">
                                         ingresa un email valido
                                     </Form.Control.Feedback> 

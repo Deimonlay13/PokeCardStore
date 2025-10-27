@@ -1,7 +1,5 @@
-
-
 import './App.css'
-import { Formulario } from './formulario/components/Formulario'
+
 
 
 
@@ -11,10 +9,7 @@ import { appRouter } from './router/app.router';
 
 function App() {
   return <RouterProvider router={appRouter} />;
-    <>
-      <Formulario/>
-    </>
-
+   
 }
 
 export default App;
