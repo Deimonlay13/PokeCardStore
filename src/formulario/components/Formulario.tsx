@@ -1,4 +1,4 @@
-import { Form, Row, Col, Button, Container, Figure } from "react-bootstrap"
+import { Form, Row, Col, Button, Container } from "react-bootstrap"
 import "./Formulario.css"
 import { useState, type FormEvent } from "react";
 
@@ -25,12 +25,7 @@ export const Formulario = () => {
 
   return (
         
-    <Container className="py-5">
-        <Figure>
-            <Figure.Image width={171} height={180}alt="171x180"src="https://tcg.pokemon.com/assets/img/global/logos/en-us/tcg-logo.png"/>
-            <Figure.Caption>  </Figure.Caption>
-        </Figure>
-        
+    <Container className="py-5"> 
             <h2 className="section-title">Contacto</h2>
                 <div className="subtitle text-center text-lg-start">
                     <h2>¿Trabajamos juntos?</h2>
