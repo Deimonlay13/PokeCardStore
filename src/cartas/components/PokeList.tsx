@@ -1,7 +1,6 @@
 import type { FC } from "react";
 import type { CartaPokemon } from "../interfaces/carta-pokemon.interface";
 import { Counter } from "../../counter/Counter";
-import "./pokeList.css"
 
 interface Props {
   cartas: CartaPokemon[];
