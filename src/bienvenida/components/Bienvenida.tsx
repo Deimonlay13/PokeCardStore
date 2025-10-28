@@ -35,7 +35,7 @@ const Bienvenida: React.FC = () => {
 
                 {/* TITULO */}
                 <section className="seccion-intro text-center">
-                    <h2 className="seccion-titulo">Explora el mundo del TCG</h2>
+                    <h2 className="section-title">Explora el mundo del TCG</h2>
                     <p className="seccion-descripcion">
                         Aquí encontrarás recursos clave para aprender a jugar, conocer los mazos más competitivos y construir tu propia estrategia.
                     </p>
