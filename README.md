@@ -7,11 +7,11 @@ Además, cuenta con un diseño responsive basado en Bootstrap, asegurando una vi
 
 ## Visuales
 
-![Bienvenida](src/assets/bienvenida.png)
-![Cartas](src/assets/cartas.png)
-![Noticias](src/assets/noticias.png)
-![Formulario](src/assets/contacto.png)
-![Carrito](src/assets/carrito.png)
+![Bienvenida](./src/assets/bienvenida.png)
+![Cartas](./src/assets/cartas.png)
+![Noticias](./src/assets/noticias.png)
+![Formulario](./src/assets/contacto.png)
+![Carrito](./src/assets/carrito.png)
 
 ## Uso 
 Una vez que la aplicación esté en ejecución, podrás navegar por las diferentes secciones:
