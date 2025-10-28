@@ -9,6 +9,7 @@ interface Props {
 export const NoticiasList: React.FC<Props> = ({ noticias }) => {
    return (
      <div className="noticias-container px-5 pt-5">
+        <h2 className="section-title">Noticias</h2>
        {noticias.map((noticia) => (
          <a
            key={noticia.id}
